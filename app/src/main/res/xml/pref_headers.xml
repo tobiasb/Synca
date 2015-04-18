@@ -9,6 +9,12 @@
         android:title="@string/pref_header_notifications" />
 
     <header android:fragment="tbits.com.synca.SettingsActivity$DataSyncPreferenceFragment"
+        android:title="@string/pref_header_data_sync" /><header
+        android:fragment="tbits.com.synca.SettingsActivity$GeneralPreferenceFragment"
+        android:title="@string/pref_header_general" /><header
+        android:fragment="tbits.com.synca.SettingsActivity$NotificationPreferenceFragment"
+        android:title="@string/pref_header_notifications" /><header
+        android:fragment="tbits.com.synca.SettingsActivity$DataSyncPreferenceFragment"
         android:title="@string/pref_header_data_sync" />
 
 </preference-headers>

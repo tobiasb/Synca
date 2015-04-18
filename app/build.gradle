@@ -16,6 +16,9 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+        debug {
+            debuggable true
+        }
     }
 }
 
@@ -23,4 +26,8 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.0.0'
     compile 'com.android.support:support-v4:22.0.0'
+    compile 'com.dropbox.core:dropbox-core-sdk:1.7.7'
+    compile files('C:/Users/Tobias.Boehm/AndroidStudioProjects/Synca/lib/dropbox-android-sdk-1.6.3.jar')
+    compile files('C:/Users/Tobias.Boehm/AndroidStudioProjects/Synca/lib/json_simple-1.1.jar')
+
 }
